@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "@fortawesome/free-regular-svg-icons": "^6.5.1",
+    "live-server": "^1.1.0"
+  },
+  "name": "exercises",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass -w scss/:dist/css/"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
