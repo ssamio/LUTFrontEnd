@@ -3,9 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "homepage": "https://ssamio.github.io/LUTFrontEnd",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "sass": "sass -w scss/:dist/css/"
+    "sass": "sass -w scss/:dist/css/",
+    "deploy": "gh-pages -d dist"
   },
   "author": "",
   "license": "ISC",

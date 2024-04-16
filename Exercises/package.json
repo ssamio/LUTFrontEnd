@@ -6,10 +6,8 @@
   "name": "exercises",
   "version": "1.0.0",
   "main": "index.js",
-  "homepage": "https://ssamio.github.io/LUTFrontEnd",
   "scripts": {
-    "sass": "sass -w scss/:dist/css/",
-    "deploy": "gh-pages -d dist"
+    "sass": "sass -w scss/:dist/css/"
   },
   "author": "",
   "license": "ISC",
