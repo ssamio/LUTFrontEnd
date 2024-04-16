@@ -1,4 +1,5 @@
 # LUT University Front End - Project and exercise materials
+## Student: Sami Seppälä
 <p>To run this project on your own machine locally, open a terminal and navigate to the project root folder (assuming you have the downloaded it). From there, run 
           
     npm run sass
