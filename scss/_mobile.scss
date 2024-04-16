@@ -1,0 +1,59 @@
+//Widescreens
+@include mediaXl {
+  .image-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+//Desktops & Laptops
+@include mediaLg {
+  .image-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+//Tablets & Small Laptops
+@include mediaMd {
+  main {
+    align-items: center;
+    text-align: center;
+
+    .split-screen {
+      flex-direction: column;
+      overflow: auto;
+      align-items: stretch;
+      .text,
+      .image {
+        flex: 1;
+        p {
+          font-size: 16px;
+        }
+      }
+    }
+
+    .large-heading {
+      line-height: 1;
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+  }
+  .image-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+//Smartphones
+@include mediaSm {
+  main {
+    padding: 2rem;
+
+    .large-heading {
+      margin-top: 1rem;
+    }
+  }
+  .image-grid {
+    grid-template-columns: 1fr;
+  }
+
+  #mainFooter {
+    font-size: 10px;
+  }
+}
